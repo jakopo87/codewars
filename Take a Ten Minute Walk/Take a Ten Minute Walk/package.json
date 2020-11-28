@@ -1,0 +1,10 @@
+{
+  "name": "Take-a-Ten-Minute-Walk",
+  "version": "0.0.0",
+  "description": "Take a Ten Minute Walk",
+  "main": "app.js",
+  "author": {
+    "name": "Jacopo",
+    "email": ""
+  }
+}

@@ -6,5 +6,8 @@
   "author": {
     "name": "Jacopo",
     "email": ""
+  },
+  "dependencies": {
+    "Take-a-Ten-Minute-Walk": "file:"
   }
 }

@@ -5,13 +5,14 @@ import { isOpposite } from '../app.js';
 
 describe("isOpposite", function () {
     it("Sample Tests", function () {
-        // tester("ab", "AB", true);
-        // tester("aB", "Ab", true);
-        // tester("aBcd", "AbCD", true);
-        // tester("aBcde", "AbCD", false);
+        tester("ab", "AB", true);
+        tester("aB", "Ab", true);
+        tester("aBcd", "AbCD", true);
+        tester("aBcde", "AbCD", false);
         tester("AB", "Ab", false);
-        // tester("Ab", "cD", false);
-        // tester("", "", false);
+        tester("Ab", "cD", false);
+        tester("", "", false);
+        tester("yqhhdSpovMuwv", "YQHHDsPOVmUWVh", false);
     });
 
     function tester(s1, s2, expected) {

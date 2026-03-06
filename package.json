@@ -6,6 +6,9 @@
     "mocha-explorer-launcher-scripts": "^0.4.0",
     "tape": "^5.9.0"
   },
+  "overrides": {
+    "serialize-javascript": "7.0.3"
+  },
   "scripts": {
     "test": "mocha",
     "watch": "mocha --watch"

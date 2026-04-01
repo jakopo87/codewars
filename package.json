@@ -7,8 +7,9 @@
     "tape": "^5.9.0"
   },
   "overrides": {
-    "serialize-javascript": "7.0.3",
-    "diff": "^8.0.3"
+    "brace-expansion": "2.0.3",
+    "diff": "8.0.3",
+    "serialize-javascript": "7.0.5"
   },
   "scripts": {
     "test": "mocha",
